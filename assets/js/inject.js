@@ -47,13 +47,20 @@ if (location.pathname === "/") {
         <br>
         2) <span id="instruction-2">Complete the online cognitive test.</span>
         <br>
-        3)
-        <span id="instruction-3">Wait to find out whether you’ve made it to the next stage.</span>
+       
+       3) <span id="instruction-3"> Make sure you press Submit so that your scores will be recorded </span>
+        <br>
+  
+      
+       4)
+        <span id="instruction-4">Wait to find out whether you’ve made it to the next stage.</span>
         <br>
         <br>
         <span id="account">That’s it! If you’ve already created an account, sign in to complete
           your application or check for updates.</span>
-`
+          
+         
+
 
 
   const contactString = `
