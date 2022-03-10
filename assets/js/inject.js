@@ -54,6 +54,19 @@ if (location.pathname === "/") {
         <span id="account">That’s it! If you’ve already created an account, sign in to complete
           your application or check for updates.</span>
 `
+const contentString = `
+        <h1 >Try out the first step of application - the Online Test.</h1>
+        <h2 >This is a two part game which challenges your memory and logical thinking.</h2>
+        <h3 >1) Prepare for the 1,5 hour Online Test - use a computer and a mouse.</h3>
+        <h3 >2) Create an account and log into the platform.</h3>
+        <h3>3) Complete the Test - remember, you can't pause it!</span>
+        <h3>4) Come back on Tuesday to know if you made it through to the next step - the Selection Sprint.</h3>
+        <h1>More info about the Online Test:</h1>
+        <h2>Game #1 - Memory</h2>
+        <h3>Begin the application with a game that tests your memory. Getting harder as the levels progress, test your memory in this colourful game.</h3>
+        <h2>Game #2 - Zzle</h2>
+        <h3>This is where the challenge begins. Zzle tests your logic and perseverance. You'll be lead through a series of puzzles and your job is to figure out how to move the cursor to the end. Experiment with different possibilities and see how quickly you can get through.</h3>
+` </span>
 
 
   const contactString = `
