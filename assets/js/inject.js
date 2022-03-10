@@ -57,7 +57,7 @@ if (location.pathname === "/") {
 const contentString = `
         <h1 >Try out the first step of application - the Online Test.</h1>
         <h2 >This is a two part game which challenges your memory and logical thinking.</h2>
-        <h3 >1) Prepare for the 1,5 hour Online Test - use a computer and a mouse.</h3>
+        <h3 >1) Prepare for the 1.5 hour Online Test - use a computer and a mouse.</h3>
         <h3 >2) Create an account and log into the platform.</h3>
         <h3>3) Complete the Test - remember, you can't pause it!</span>
         <h3>4) Come back on Tuesday to know if you made it through to the next step - the Selection Sprint.</h3>
