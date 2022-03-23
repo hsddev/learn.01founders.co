@@ -36,6 +36,10 @@ if (location.pathname === "/") {
 `
 
   rightContent.insertAdjacentHTML('afterbegin', htmlVideoString)
+  
+  const titleString = `
+    Welcome to <span style="color: #56C271">01 Founders!</span>
+`
 
   const contentString = `
         <span id="zone-01">Zone 01 is our collaborative coding education platform.</span>
@@ -52,9 +56,8 @@ if (location.pathname === "/") {
         <br>
         <br>
         <span id="account">That’s it! If you’ve already created an account, sign in to complete
-          your application or check for updates.</span>
-`
-const contentString = `
+          your application or check for updates.
+          
         <h1 >Try out the first step of application - the Online Test.</h1>
         <h2 >This is a two part game which challenges your memory and logical thinking.</h2>
         <h3 >1) Prepare for the 1.5 hour Online Test - use a computer and a mouse.</h3>
