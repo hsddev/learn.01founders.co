@@ -37,6 +37,12 @@ if (location.pathname === "/") {
 
   rightContent.insertAdjacentHTML('afterbegin', htmlVideoString)
   
+  
+  // Changing the color of the sign in button
+if (document.querySelector("#sign-in")) {
+    signIn.style.background = "#56C271"
+    signIn.style.color = "hsl(0, 0%, 8%)"
+  
   const titleString = `
     Welcome to <span style="color: #56C271">01 Founders!</span>
 `
