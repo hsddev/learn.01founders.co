@@ -1,8 +1,6 @@
-document.body.innerHTML += `
-<noscript><img height="1" width="1" style="display:none"
+document.body.innerHTML += `<noscript><img height="1" width="1" style="display:none"
 src="https://www.facebook.com/tr?id=2942291289344991&ev=PageView&noscript=1"
-/></noscript>
-`
+/></noscript>`
 
 !function(f,b,e,v,n,t,s)
 {if(f.fbq)return;n=f.fbq=function(){n.callMethod?
@@ -47,8 +45,7 @@ if (document.querySelector("#sign-in")) {
     Welcome to <span style="color: #56C271">01 Founders!</span>
 `
 
-  const contentString = `
-        <span id="zone-01">Zone 01 is our collaborative coding education platform.</span>
+  const contentString = `<span id="zone-01">Zone 01 is our collaborative coding education platform.</span>
         <br><br>
         <span id="zone-01-process">New here? Here’s what you need to do:</span>
         <br><br>
@@ -75,14 +72,10 @@ if (document.querySelector("#sign-in")) {
         <h3>Begin the application with a game that tests your memory. Getting harder as the levels progress, test your memory in this colourful game.</h3>
         <h2>Game #2 - Zzle</h2>
         <h3>This is where the challenge begins. Zzle tests your logic and perseverance. You'll be lead through a series of puzzles and your job is to figure out how to move the cursor to the end. 
-        Experiment with different possibilities and see how quickly you can get through.</h3>  </span> 
-        
-        `
+        Experiment with different possibilities and see how quickly you can get through.</h3>  </span>`
 
 
-  const contactString = `
-
-      <div id="about-us">Want to know more about 01 Founders, London's new free coding school, with a job guarantee?&thinsp;</div>
+  const contactString = `<div id="about-us">Want to know more about 01 Founders, London's new free coding school, with a job guarantee?&thinsp;</div>
       <div class="contact">
       <a target="_blank" href="https://www.01founders.co/">
         <span class="arrow">→</span>
@@ -100,7 +93,7 @@ if (document.querySelector("#sign-in")) {
         <span class="arrow">→</span>
         <span id="contact">Contact us.</span>
       </a>
-      </div>
+      </div>`
 
 
   textContent.innerHTML = contentString
