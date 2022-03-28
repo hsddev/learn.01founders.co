@@ -100,7 +100,7 @@ if (document.querySelector("#sign-in")) {
         <span class="arrow">→</span>
         <span id="contact">Contact us.</span>
       </a>
-      </div>
+      </div>`
 
 
   textContent.innerHTML = contentString
