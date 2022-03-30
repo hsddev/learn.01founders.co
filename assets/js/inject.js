@@ -44,13 +44,12 @@ gtag("config", "G-FLXP00HX2X");
 if (location.pathname === "/") {
     const rightContent = document.querySelector(".right");
     const textContent = document.querySelector(".text");
-    const contactContent = document.querySelector(".contact");
+    let contactContent = document.querySelector(".contact");
     const welcome = document.getElementById("welcome");
-    const contactLink = document.getElementById("contact-link");
 
     // welcome to 01 Founders
     welcome.innerHTML = `Welcome to <span style="color: #56C271;">01Founders</span>`;
-    welcome.style.fontSize = "font-size: 3rem !important";
+    document.querySelector(".title").style.fontSize = "3rem !important";
 
     // Video
     const htmlVideoString = `
@@ -93,11 +92,14 @@ if (location.pathname === "/") {
    </div>`;
 
     // Contact
-    contactContent.style.fontSize = "1rem !important";
-    contactContent.style.padding = "20px 0px";
-    contactLink.style.color = "#56C271 !important";
-    contactLink.style.borderBottom = "solid 1px #56C271 !important";
+    contactContent = `<div class="contact" style="padding: 20px 0px;font-size:1rem !important">
+    <div id="about-us">Want to know more about us ?</div>
+    <a id="contact-link" style="color: #56C271 !important;border-bottom: solid 1px #56C271 !important" target="_blank" href="mailto:hello@01founders.co">
+      <span class="arrow">→</span>
+      <span id="contact">Contact us.</span>
+    </a>
+  </div>`;
 
-    contactContent.insertAdjacentHTML("afterend", contactString);
+    contactContent.insertAdjacentHTML("afterend", contactContent);
     contactContent.remove();
 }
