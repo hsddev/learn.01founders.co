@@ -93,8 +93,8 @@ if (location.pathname === "/") {
    </div>`;
 
     // Contact
-    contactString.style.fontSize = "1rem !important";
-    contactString.style.padding = "20px 0px";
+    contactContent.style.fontSize = "1rem !important";
+    contactContent.style.padding = "20px 0px";
     contactLink.style.color = "#56C271 !important";
     contactLink.style.borderBottom = "solid 1px #56C271 !important";
 
