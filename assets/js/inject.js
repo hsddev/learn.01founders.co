@@ -30,24 +30,22 @@ src="https://www.facebook.com/tr?id=2942291289344991&ev=PageView&noscript=1"
 fbq("init", "2942291289344991");
 fbq("track", "PageView");
 
-document.getElementsByTagName("head")[0].innerHTML += `<!-- Global site tag (gtag.js) - Google Analytics -->
-<script async src="https://www.googletagmanager.com/gtag/js?id=UA-199770866-2"></script>
-<script>
-  window.dataLayer = window.dataLayer || [];
-  function gtag(){dataLayer.push(arguments);}
-  gtag('js', new Date());
+ (function () {
+    const head = document.getElementsByTagName("head")[0];
 
-  gtag('config', 'UA-199770866-2');
-</script>`
+    var myScript = document.createElement('script');
 
+    myScript.setAttribute('src', 'https://www.googletagmanager.com/gtag/js?id=UA-199770866-2');
+    head.insertBefore(myScript, head.children[1]);
 
+})();
 
-document.body.innerHTML +=`<script async src="https://www.googletagmanager.com/gtag/js?id=G-4SFYEZ8K9L"></script>`;
-  window.dataLayer = window.dataLayer || [];
-  function gtag(){dataLayer.push(arguments);}
-  gtag('js', new Date());
+window.dataLayer = window.dataLayer || [];
+function gtag() { dataLayer.push(arguments); }
+gtag('js', new Date());
 
-  gtag('config', 'G-4SFYEZ8K9L');
+gtag('config', 'UA-199770866-2');
+
 
 if (location.pathname === "/") {
     const rightContent = document.querySelector(".right");
