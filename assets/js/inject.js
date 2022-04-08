@@ -41,6 +41,14 @@ document.getElementsByTagName("head")[0].innerHTML += `<!-- Global site tag (gta
 </script>`
 
 
+
+document.body.innerHTML +=`<script async src="https://www.googletagmanager.com/gtag/js?id=G-4SFYEZ8K9L"></script>`;
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'G-4SFYEZ8K9L');
+
 if (location.pathname === "/") {
     const rightContent = document.querySelector(".right");
     const textContent = document.querySelector(".text");
