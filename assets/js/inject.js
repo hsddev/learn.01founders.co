@@ -30,7 +30,7 @@ src="https://www.facebook.com/tr?id=2942291289344991&ev=PageView&noscript=1"
 fbq("init", "2942291289344991");
 fbq("track", "PageView");
 
-document.body.innerHTML += `
+document.getElementsByTagName("head")[0].innerHTML += `<!-- Global site tag (gtag.js) - Google Analytics -->
 <script async src="https://www.googletagmanager.com/gtag/js?id=UA-199770866-2"></script>
 <script>
   window.dataLayer = window.dataLayer || [];
@@ -38,7 +38,8 @@ document.body.innerHTML += `
   gtag('js', new Date());
 
   gtag('config', 'UA-199770866-2');
-</script>`;
+</script>`
+
 
 if (location.pathname === "/") {
     const rightContent = document.querySelector(".right");
