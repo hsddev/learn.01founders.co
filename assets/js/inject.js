@@ -1,3 +1,8 @@
+document.body.innerHTML += `<!-- ABtesting.ai Code -->
+<link rel="preconnect" href="https://external.abtesting.ai">
+<script src="https://js.abtesting.ai/ab.js?userid=7444"></script>
+<!-- End ABtesting.ai Code -->`;
+
 document.body.innerHTML += `
 <noscript><img height="1" width="1" style="display:none"
 src="https://www.facebook.com/tr?id=2942291289344991&ev=PageView&noscript=1"
